@@ -1,0 +1,8 @@
+#!/usr/bin/bash
+
+tools/build.py lab_apcs_u01_HelloWorld
+tools/run.py "lab_apcs_u01_HelloWorld_solutions$" | grep "Problem " | grep "Failed"
+tools/collect_outputs.py lab_apcs_u01_HelloWorld
+tools/build.py lab_apcs_u01_HelloWorld
+tools/run.py "lab_apcs_u01_HelloWorld$" | grep "Problem " | grep "Passed"
+

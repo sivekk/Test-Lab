@@ -1,0 +1,15 @@
+#!/usr/bin/bash
+
+# Intro to Programming
+tools/build.py lab_itp
+tools/run.py "lab_itp.*solutions$" | grep "Problem " | grep "Failed"
+tools/collect_outputs.py lab_itp
+tools/build.py lab_itp
+tools/run.py "lab_itp_u[0-9]+_[^_]*$" | grep "Problem " | grep "Passed"
+
+# AP Computer Science
+tools/build.py lab_apcs
+tools/run.py "lab_apcs.*solutions$" | grep "Problem " | grep "Failed"
+tools/collect_outputs.py lab_apcs
+tools/build.py lab_apcs
+tools/run.py "lab_apcs_u[0-9]+_[^_]*$" | grep "Problem " | grep "Passed"

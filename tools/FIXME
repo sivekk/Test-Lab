@@ -1,0 +1,33 @@
+* added lots of hasattr checks (in ITP dir)
+* converted sys.exit to print (in ITP dir)
+
+u02 ErrorsAndPuzzle
+  * fix indentation in solution code (in ITP dir)
+
+u03 FunctionDefs 
+  * problem 2 test 2 and problem 3 test 2 don't do anything useful and should be deleted
+  * problem 2 description is incorrect import info (get rid of "labs.")
+
+u04 FruitfulFunctionDefs
+  * use hasattr to check attr existence in tests (ITP)
+
+u04 OperationsQuiz-1
+  * rename header.py to opsquiz_select.py
+u04 OperationsQuiz-2
+  * rename header.py to opsquiz_eval.py
+u04 OperationsQuiz-3
+  * rename header.py to opsquiz_io.py
+  * need top copy ops_quiz_select.py and opsquiz_eval.py from previous labs
+
+u05 Cards
+  * rename header.py to cards.py
+
+u06 Dictionary Basics
+  * copy in dictionary files
+  * add indent back to problem4 test files
+
+u06 StringsAndFiles
+  * copy in csv files
+  * add indent back to problem 3 test
+
+

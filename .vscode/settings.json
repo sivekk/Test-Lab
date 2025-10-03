@@ -1,0 +1,27 @@
+{
+    "vim.wrapscan": true,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "git.path": [
+        "C:\\Program Files\\Git\\bin\\git.exe",
+    ],
+    "git.rebaseWhenSync": true,
+    "terminal.integrated.profiles.windows": {
+
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        }
+    },
+    "files.autoSave": "afterDelay",
+}

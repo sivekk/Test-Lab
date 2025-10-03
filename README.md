@@ -1,2 +1,2 @@
-# Test-Lab
-Write, Test, and Debug Python Code
+# Testing Lab
+Write, Test, and Debug code.
